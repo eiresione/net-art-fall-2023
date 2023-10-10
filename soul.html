@@ -1,5 +1,5 @@
 
-        <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>CSS Template</title>
@@ -28,7 +28,7 @@ body {
 .column {
   float: left;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 100px; 
 }
 
 /* Left and right column */
@@ -49,10 +49,14 @@ body {
 .footer {
   background-color: blue;
   padding: 10px;
-  text-align: end;
+  text-align: center;
 }
 
-
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column.side, 
+    width: 100%;
+}
 </style>
 </head>
 <body>
@@ -61,11 +65,6 @@ body {
 <div class="row">
   <div class="column side" 
   style="background-color:blue; color:white; font-size: small">
-  I was birthed from ash and blinded by the thousand suns in a corner of the universe 
-  that forever will exist but does not matter. I have lived a childhood of headaches 
-  and scraped knees like every other kid, all bloodied and bruised when they come home 
-  from tumbling in the pebbles of cracked streets.
-  
   In the dirt-filled spots behind my home, I crouched to pour water into a motley of tiny branches. 
 It was there that mud became my best friend only to make my skin grubby, and the pinecones and rocks lead me astray 
 into 
@@ -115,14 +114,26 @@ And back to the universe we go.
   </div>
 </div>
 
+<div class="footer" 
+style="color:white; font-size: large">
+  <p>
+  bring peace please do not disturb me
+  i am begging for a beautiful life
+  i am begging for a lack of perception
+  bring peace and a calm consciousness
+  please love in a way that does no harm
+  what we need is radical acceptance and no conformity we need thought now more than ever
+  philosophers encouraging critical thinking</p>
+  
+  <p>what we need is less reactionaries learn how to manage what we have in our heads how to live 
+  as people for people generations pass and
+  generations pass and something but nothing
+  time goes in and out of our memories
+  who are we but a people who have
+  failed ourselves and the merceneraries of our time 
+  cannot do enough to sustain the world
+  </p>
+</div>
 
 </body>
-</html>
-
-
-
-    </div>
-
-</body>
-
 </html>
