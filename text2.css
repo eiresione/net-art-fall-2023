@@ -12,8 +12,12 @@ div {
     border-width: thick;
 }
 
+.text2{
+    background-color: black;
+}
 
 .bottomDiv{
+  background-color: black;
     position: relative;
     top: -30px;
     left: 150px;
