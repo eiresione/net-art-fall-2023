@@ -3,7 +3,7 @@ body {
     background-color: rgb(0, 0, 0);
 }
 div {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 50px;
     width: 150px;
@@ -12,12 +12,8 @@ div {
     border-width: thick;
 }
 
-.text2{
-    background-color: black;
-}
 
 .bottomDiv{
-  background-color: black;
     position: relative;
     top: -30px;
     left: 150px;
@@ -29,7 +25,7 @@ div {
   }
   
   .flex-container > div {
-    background-color: #ffffff;
+    background-color: #000000;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
