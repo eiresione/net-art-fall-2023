@@ -4,9 +4,7 @@ function setup(){
   stroke(16, 84, 230);
   fill(103, 178, 224);
   ellipseMode(CENTER);
-  canvas.position(0,0);
-  canvas.style('z-index','-1');
- 
+
 }
 
 function draw(){
