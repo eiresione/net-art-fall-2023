@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Interpersonal Instances Online</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+/* Style the side navigation */
+.sidenav {
+ height: 100%;
+  width: 400px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color: black;
+  padding: 16px;
+  font-size: small;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: white;
+  color: blue;
+}
+
+/* Style the content */
+.content {
+font-size: small;
+background-color: black;
+color:white;
+  margin-left: 400px;
+  padding-left: 20px;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="#"> 
+    <p>
+        Interpersonal Instances Online
+    </p>
+    <p>Social experiences and their subsequent emotional consequences long reigned as topics of 
+    literature and art. Now they are pushed into the online world, where they can be visited by anyone, 
+    anytime, granting a new set of interactions with expressions of human connection. Universal love, friendship, 
+    romance, or the many other forms of relationships we live through speak to the complexity that exists between 
+    each one of us, albeit most of the time it is invisible. Social interconnection is not so easily contained, 
+    however. We seek to immortalize our social lives and our reactions to them in our creations.</p>
+
+  <p>  This exhibition serves to highlight works on interpersonal attachment, or means of exploring the metaphorical 
+    space between people. In other words, projects centered on human connection, presented online. The following 
+    net artworks feature exploration of the nature of relationships and their translations to the digital world, 
+    as well as their methods of publication. Different artists focus on the variety of applications an online space 
+    offers, and what it means to them and to their audience in terms of connection; displays, interactions, and 
+    other elements are conjoined to convey unique meanings. </p>
+    </a>
+</div>
+
+<div class="content">
+
+<p>
+    <img src="img\sound.png"> 
+    <a href="https://thesoundof.love/">https://thesoundof.love/</a>
+A website by Chia Amisola presenting comments from songs on Youtube. This display focuses on the intimate 
+moments strangers share in an unassuming online space, especially one where there is really no terms of 
+“growth” – comments sections of other peoples’ videos. It shares experiences people want to say without 
+much expectation for attention. </p>
+
+<p> <img src="img\landscape.png"> 
+    <a href="https://digitallovelanguages.github.io/">https://digitallovelanguages.github.io/</a>
+A webzine (a digital magazine) made by students for the Digital Love Languages class of Summer 2020, 
+featuring a collection of media and works. This is an intimate depiction of the individual human experience, 
+of creative labor, consciousness, and connection with people. The site captures the fluidity and abstraction 
+of feeling, contained in a virtual space.</p>
+
+<p> <img src="img\code.png"> 
+    <a href="https://doodybrains.github.io/hand-coding-round-robin/march-2020-archive/">
+    https://doodybrains.github.io/hand-coding-round-robin/march-2020-archive/</a>
+A collaborative coding project between 26 students.</p>
+
+<p><img src="img\system.png"> 
+    <a href="https://virtualcarelab.com/Vulnerability-Companion-System">https://virtualcarelab.com/Vulnerability-Companion-System
+</a>
+A micro-community featuring experimental collaboration on various topics. This project encourages participation 
+in emotional vulnerability. </p>
+
+</div>
+    
+
+  </body>
+  </html>
